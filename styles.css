@@ -1,0 +1,49 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+form {
+    margin: 1rem;
+    text-align: center;
+}
+
+button {
+    margin: 1rem;
+}
+
+body {
+    background-image: url(images/weather.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+label {
+    font-weight:bolder
+}
+
+#weather-card {
+    margin: 2rem
+}
+
+#card-padding {
+    padding-right: 2.5rem
+}
+
+#location {
+    padding: .5rem;
+    background-color: lightblue;
+}
+
+#forecast {
+    padding: .5rem;
+    background-color: #89CFF0;
+}
+
+#wind {
+    padding: .5rem;
+    background-color: #4B9CD3;
+}
+
+#city {
+    border-radius: 10px
+}
