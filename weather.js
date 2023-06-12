@@ -29,7 +29,7 @@ const weatherData = async (city_name) => {
         document.body.style.backgroundImage = "url('images/sunny-day.jpeg')"
     } else if (data1.weather[0].main === 'Rain') {
         document.body.style.backgroundImage = "url('images/rainy-day.jpeg')"
-    } else if (data1.weather[0].main === 'snow') {
+    } else if (data1.weather[0].main === 'Snow') {
         document.body.style.backgroundImage = "url('images/snowy-day.jpeg')"
     } else if (data1.weather[0].main === 'Fog') {
         document.body.style.backgroundImage = "url('images/fog-day.jpeg')"
