@@ -21,6 +21,10 @@ label {
     font-weight:bolder
 }
 
+input {
+    padding: .2rem 0 .2rem .5rem
+}
+
 #weather-card {
     margin: 2rem
 }
